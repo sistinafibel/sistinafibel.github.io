@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Scribble
 
-You can use the [editor on GitHub](https://github.com/sistinafibel/sistinafibel.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
 
-### Markdown
+## Get started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. [Fork the repository](https://github.com/muan/scribble/fork)
 
-```markdown
-Syntax highlighted code block
+2. Clone the repository: `git clone https://github.com/username/scribble`
 
-# Header 1
-## Header 2
-### Header 3
+3. Run `bundle install`
 
-- Bulleted
-- List
+4. Run Jekyll: `bundle exec jekyll serve -w`
 
-1. Numbered
-2. List
+5. Go to http://localhost:4000 for your site.
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+## Make it yours
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
 
-### Jekyll Themes
+2. Change `about.md` for blog intro
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sistinafibel/sistinafibel.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
 
-### Support or Contact
+## The end
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Like it? [Tell me](http://twitter.com/muanchiou).<br/>
+Problem? [Use GitHub Issues](https://github.com/muan/scribble).
