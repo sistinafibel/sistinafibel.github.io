@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[Mysql] Mysql 5.7 Error this is incompatible with sql_mode=only_full_group_by 오류 해결 방법'
+title: '[Mysql] Error this is incompatible with sql_mode=only_full_group_by 오류 해결 방법'
 date: 2019-06-08
 author: cloudjun
 tags: mysql DB
