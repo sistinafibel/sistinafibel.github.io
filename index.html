@@ -27,12 +27,12 @@ description: 꿈꾸는 프로그래머
                 {% endif %}
                 <section class="post-preview">
                     <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}"></a>
-                    <h2 class="post-title">{{ post.title }}</h2>
+                    <h2 class="post-title mainh2">{{ post.title }}</h2>
                     {% if post.subtitle %}
                     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
                     {% endif %}
                     {% if post.subtitle.size==0 or post.subtitle==nil %}
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
+                    <p class="post-excerpt mainh2">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
                     {% endif %}
                 </section>
                 <footer class="post-meta">
