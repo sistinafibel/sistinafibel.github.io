@@ -4,6 +4,9 @@ title: '[Node] npm package.json 생성하기'
 date: 2019-06-12
 author: cloudjun
 tags: nodejs
+layout: default
+comments: true
+# other options
 ---
 node.js로 프로젝트를 진행하면 npm 이라는 의존성 관리를 사용하게 된다.
 각각의 프로젝트마다 다운로드 받는 묘듈의 버전이 다르기 때문에 문제가 발생 할 수 있는데
