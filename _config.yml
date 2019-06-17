@@ -22,14 +22,14 @@ footer:
 # Author 
 author: 'CloudJun'
 nickname: 'cloudjun'
-bio: '코딩하기 좋은날이죠?'
+bio: '몰디브에서 모히또 한잔 하자!'
 avatar: '/assets/img/profile.png'
 
 # Search
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments 
 comments:
