@@ -36,7 +36,7 @@ default 단일 파일이 하나 자리잡고 있는데, 이걸 에디터를 사�
 > nano default //nanoedit를 사용했으나 vi를 사용해도 무관.
 ```
 
-이후 다음과 같은 설정 파일을 만날수 있는데
+이후 다음과 같은 설정파일을 만날수 있는데 <br>
 server {} > localtion / 부분에서 proxy_pass http://node서버 주소:포트번호 를 작성하여 연결한다.
 
 ```ini
