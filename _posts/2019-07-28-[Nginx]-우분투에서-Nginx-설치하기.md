@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Nginx] 우분투에서 Nginx 설치하기'
-date: 2019-07-18
+date: 2019-07-28
 author: cloudjun
 tags: Nginx
 ---
