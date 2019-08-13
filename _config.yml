@@ -2,7 +2,7 @@
 title: '오늘밤은 치킨이 먹고싶어'
 description: '개발 관련 이야기를 담았습니다.'
 keyword: 'javascript, vuejs, nodejs'
-url: '' # your host
+url: 'https://sistinafibel.github.io' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # if you're using GitHub Pages, set baseurl to your blog's .
