@@ -5,8 +5,6 @@ date: 2019-08-20
 author: cloudjun
 tags: mysql
 ---
-### MYSQL 처음부터 설치하기
-
 mysql를 설치할때마다 간혹 빼먹는 일이 있어서 문서로 한번에 정리합니다.<br>
 간혹 설정 없이 하다가 한글 깨지는거 보면 현타 빡 오는데 한번에 이쁘게 설정해두면 두고두고 과거의 나에게 감사함을 느낄수 있다.
 
@@ -92,7 +90,7 @@ default-character-set=utf8
 
 이후 저장하고 재시작 해준다.
 
-```
+```shell
 > service mysql restart
 ```
 
@@ -103,7 +101,7 @@ default-character-set=utf8
 처음 mysql를 설정하면 방화벽이나 포트를 추가해줬는데도 외부에서 접속이 안되는 경우가 발생한다.
 mysql 처음 설정이 로컬로만 설정이 되어 있어서 그런건데, 다음과 같은 방법으로 풀어 줄 수있다.
 
-```
+```shell
 > cd /etc/mysql/mysql.conf.d 
 ```
 
@@ -141,7 +139,7 @@ listen과 관련된 TCP/IP 소켓 바인딩을 어느 아이피로 설정할지 
 
 이후 적용을 위해 서버 재시작하기
 
-```
+```shell
 > service mysql restart
 ```
 

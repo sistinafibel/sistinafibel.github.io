@@ -3,7 +3,7 @@ layout: post
 title: '[ASP] newobjects.utilctls.VarDictionary 묘듈 호출 실패'
 date: 2019-06-14
 author: cloudjun
-tags: asp,iis
+tags: asp iis
 ---
 서버 OS에 문제가 발생하여 긴급하게 IIS 서버를 이전하는 작업을 진행하던 도중 ASP 묘듈오류가 발생하며 newobjects.utilctls.VarDictionary 묘듈을 불러올 수 없다는 내용을 확인했다.
 
