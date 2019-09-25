@@ -14,9 +14,21 @@ tags: mysql
 > FLUSH PRIVILEGES; --변경사항 즉시 적용
 ```
 
+5.7이상은 다른 명령어를 입력해야한다.
+
+```mysql
+-- MySQL 5.7 이상
+> UPDATE mysql.user SET authentication_string=PASSWORD('패스워드') WHERE user='root' AND Host='localhost';
+> FLUSH PRIVILEGES;
+```
+
+모든 root 비밀번호를 갱신 시키려면 AND 제거할것.
+
+
+
 ### 예제 )  mysql root 계정 비밀번호 변경 하기
 
 ```mysql
-> Update user SET password = password('1234') where user='root';
+> update user SET password = password('1234') where user='root';
 ```
 
