@@ -1,6 +1,6 @@
 # Site settings 
-title: '오늘밤은 치킨이 먹고싶어'
-description: '개발 관련 이야기를 담았습니다.'
+title: 'DevLog'
+description: '개발과 세상 사는 이야기를 담았습니다.'
 keyword: 'javascript, vuejs, nodejs'
 url: 'https://sistinafibel.github.io' # your host
 
@@ -17,12 +17,12 @@ nav:
 
 # Footer
 footer:
-  since: 2019
+  since: 2021
 
 # Author 
 author: 'CloudJun'
 nickname: 'cloudjun'
-bio: '몰디브에서 모히또 한잔 하자!'
+bio: '저라서 쓸 수 있는 글을 쓰기 위해 노력합니다.'
 avatar: '/assets/img/profile.png'
 
 # Search
